@@ -1,0 +1,40 @@
+{
+  "name": "@tva/ts-config-react",
+  "version": "1.0.0",
+  "main": "tsconfig.base.json",
+  "files": [
+    "tsconfig.base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint \"tests/**\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tva/ts-config": "workspace:^"
+  },
+  "devDependencies": {
+    "@tva/eslint-config": "workspace:^",
+    "@tva/eslint-config-react": "workspace:^",
+    "@types/react": "^18.2.43",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1",
+    "react": "^18.2.0",
+    "stylelint": "^16.0.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": "^18.12.0"
+  },
+  "eslintConfig": {
+    "extends": "@tva/react"
+  },
+  "prettier": "@tva/eslint-config/.prettierrc"
+}

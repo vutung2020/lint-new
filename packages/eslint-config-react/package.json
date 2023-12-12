@@ -1,0 +1,46 @@
+{
+  "name": "@tva/eslint-config-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "replacements.js",
+    ".stylelintrc.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tva/eslint-config": "workspace:^",
+    "eslint-config-xo-react": "^0.27.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "stylelint-config-xo-scss": "^0.15.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.8",
+    "eslint": "^8.55.0",
+    "postcss": "^8.4.32",
+    "prettier": "^3.1.1",
+    "stylelint": "^16.0.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "stylelint": "^16.0.2"
+  },
+  "engines": {
+    "node": "^18.12.0"
+  },
+  "eslintConfig": {
+    "extends": "@tva"
+  },
+  "prettier": "@tva/eslint-config/.prettierrc"
+}

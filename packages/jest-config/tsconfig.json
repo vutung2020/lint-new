@@ -1,0 +1,10 @@
+{
+  "extends": "@tva/ts-config/tsconfig.base",
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true
+  },
+  "include": [
+    "jest.config.d.ts"
+  ]
+}

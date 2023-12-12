@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "stylelint": "^16.0.2"
+      }
+    }
+  },
+  "engines": {
+    "node": "^18.12.0",
+    "pnpm": "^8.0.0"
+  }
+}
