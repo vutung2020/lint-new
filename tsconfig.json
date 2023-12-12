@@ -1,0 +1,10 @@
+{
+  "extends": "./packages/ts-config-react/tsconfig.base",
+  "include": [
+    "packages/*/*.json",
+    "packages/*/*.js",
+    "packages/*/.*.json",
+    "packages/*/.*.js",
+    "packages/*/tests"
+  ]
+}
