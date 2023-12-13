@@ -1,5 +1,5 @@
 {
-  "name": "@tva/jest-config",
+  "name": "@vutung/jest-config",
   "version": "1.0.0",
   "main": "jest.config.js",
   "module": "jest.config.js",
@@ -20,8 +20,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tva/eslint-config": "workspace:^",
-    "@tva/ts-config": "workspace:^",
+    "@vutung/eslint-config": "workspace:^",
+    "@vutung/ts-config": "workspace:^",
     "@types/node": "^20.10.4",
     "jest": "^29.7.0",
     "prettier": "^3.1.1",
@@ -38,7 +38,7 @@
     "node": "^18.12.0"
   },
   "eslintConfig": {
-    "extends": "@tva"
+    "extends": "@vutung"
   },
-  "prettier": "@tva/eslint-config/.prettierrc"
+  "prettier": "@vutung/eslint-config/.prettierrc"
 }

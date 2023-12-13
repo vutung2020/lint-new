@@ -1,5 +1,5 @@
 {
-  "name": "@tva/ts-config-react",
+  "name": "@vutung/ts-config-react",
   "version": "1.0.0",
   "main": "tsconfig.base.json",
   "files": [
@@ -15,11 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tva/ts-config": "workspace:^"
+    "@vutung/ts-config": "workspace:^"
   },
   "devDependencies": {
-    "@tva/eslint-config": "workspace:^",
-    "@tva/eslint-config-react": "workspace:^",
+    "@vutung/eslint-config": "workspace:^",
+    "@vutung/eslint-config-react": "workspace:^",
     "@types/react": "^18.2.43",
     "eslint": "^8.55.0",
     "prettier": "^3.1.1",
@@ -34,7 +34,7 @@
     "node": "^18.12.0"
   },
   "eslintConfig": {
-    "extends": "@tva/react"
+    "extends": "@vutung/react"
   },
-  "prettier": "@tva/eslint-config/.prettierrc"
+  "prettier": "@vutung/eslint-config/.prettierrc"
 }

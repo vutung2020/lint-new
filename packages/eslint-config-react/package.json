@@ -1,5 +1,5 @@
 {
-  "name": "@tva/eslint-config-react",
+  "name": "@vutung/eslint-config-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tva/eslint-config": "workspace:^",
+    "@vutung/eslint-config": "workspace:^",
     "eslint-config-xo-react": "^0.27.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
@@ -40,7 +40,7 @@
     "node": "^18.12.0"
   },
   "eslintConfig": {
-    "extends": "@tva"
+    "extends": "@vutung"
   },
-  "prettier": "@tva/eslint-config/.prettierrc"
+  "prettier": "@vutung/eslint-config/.prettierrc"
 }

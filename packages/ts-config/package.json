@@ -1,5 +1,5 @@
 {
-  "name": "@tva/ts-config",
+  "name": "@vutung/ts-config",
   "version": "1.0.0",
   "description": "",
   "main": "tsconfig.base.json",
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tva/eslint-config": "workspace:^",
+    "@vutung/eslint-config": "workspace:^",
     "@types/eslint": "^8.44.8",
     "eslint": "^8.55.0",
     "prettier": "^3.1.1",
@@ -29,7 +29,7 @@
     "node": "^18.12.0"
   },
   "eslintConfig": {
-    "extends": "@tva"
+    "extends": "@vutung"
   },
-  "prettier": "@tva/eslint-config/.prettierrc"
+  "prettier": "@vutung/eslint-config/.prettierrc"
 }

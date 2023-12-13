@@ -1,5 +1,5 @@
 {
-  "extends": "@tva/ts-config/tsconfig.base",
+  "extends": "@vutung/ts-config/tsconfig.base",
   "compilerOptions": {
     "outDir": "lib",
     "declaration": true
