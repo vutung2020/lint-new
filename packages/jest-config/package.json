@@ -1,6 +1,6 @@
 {
   "name": "@vutung/jest-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "jest.config.js",
   "module": "jest.config.js",
   "types": "jest.config.d.ts",

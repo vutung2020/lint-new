@@ -1,5 +1,5 @@
 /* eslint-disable unicorn/prefer-module */
-const replacements = require('@silverhand/eslint-config/replacements.js');
+const replacements = require('@vutung/eslint-config/replacements.js');
 
 module.exports = {
   ...replacements,
